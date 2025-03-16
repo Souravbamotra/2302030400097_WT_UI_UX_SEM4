@@ -1,0 +1,306 @@
+.AI-insights-screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .AI-insights-screen .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1609px;
+    position: relative;
+  }
+  
+  .AI-insights-screen .overlap-group {
+    position: absolute;
+    width: 1480px;
+    height: 588px;
+    top: 0;
+    left: 0;
+  }
+  
+  .AI-insights-screen .header-property {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 64px;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .AI-insights-screen .two-word-query-for {
+    position: relative;
+    width: 1312px;
+    height: 289px;
+    object-fit: cover;
+  }
+  
+  .AI-insights-screen .medium-length-hero {
+    position: relative;
+    width: 1312px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #031749;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+  }
+  
+  .AI-insights-screen .navbar-breakpoint {
+    display: flex;
+    flex-direction: column;
+    width: 1468px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 64px;
+    position: absolute;
+    top: 19px;
+    left: 12px;
+    background-color: #ffffff;
+    border: 0px none;
+  }
+  
+  .AI-insights-screen .container {
+    display: flex;
+    width: 1312px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-insights-screen .content {
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .AI-insights-screen .actions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+    overflow: hidden;
+  }
+  
+  .AI-insights-screen .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 26px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -2.00px;
+    background-color: #031749;
+    border-radius: 500px;
+    border: 1px solid;
+  }
+  
+  .AI-insights-screen .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-left: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .AI-insights-screen .icon {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-insights-screen .icon-menu {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .AI-insights-screen .img {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 6px;
+    left: 4px;
+  }
+  
+  .AI-insights-screen .element {
+    position: absolute;
+    width: 67px;
+    height: 72px;
+    top: 0;
+    left: 30px;
+    object-fit: cover;
+  }
+  
+  .AI-insights-screen .stats-desktop {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 112px 64px;
+    position: absolute;
+    top: 588px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .AI-insights-screen .container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 1312px;
+    align-items: center;
+    gap: 60px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-insights-screen .column {
+    display: flex;
+    flex-direction: column;
+    width: 656px;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .AI-insights-screen .heading {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #031749;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 57.6px;
+  }
+  
+  .AI-insights-screen .sub-heading {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .AI-insights-screen .frame {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-insights-screen .frame-2 {
+    align-items: flex-start;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .AI-insights-screen .card {
+    display: flex;
+    flex-direction: column;
+    height: 310px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #f1f5ff;
+  }
+  
+  .AI-insights-screen .icon-trending-up {
+    position: relative;
+    width: 56px;
+    height: 56px;
+  }
+  
+  .AI-insights-screen .icon-2 {
+    position: absolute;
+    width: 46px;
+    height: 27px;
+    top: 12px;
+    left: 5px;
+  }
+  
+  .AI-insights-screen .stat-number {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57.6px;
+    position: relative;
+    width: fit-content;
+    color: #031749;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .AI-insights-screen .stat-heading {
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    position: relative;
+    width: fit-content;
+    color: #031749;
+    text-align: center;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .AI-insights-screen .card-2 {
+    display: flex;
+    flex-direction: column;
+    width: 310px;
+    height: 310px;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+    position: relative;
+    background-color: #f1f5ff;
+  }

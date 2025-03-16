@@ -1,0 +1,481 @@
+.view-journal-entries {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .view-journal-entries .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1124px;
+    position: relative;
+  }
+  
+  .view-journal-entries .website-navbar {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 0px none;
+  }
+  
+  .view-journal-entries .content {
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 64px;
+    position: relative;
+    overflow: hidden;
+    border: 0px none;
+  }
+  
+  .view-journal-entries .frame {
+    gap: 24px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .icon {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .img-wrapper {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .view-journal-entries .img {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 6px;
+    left: 4px;
+  }
+  
+  .view-journal-entries .column {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .nav-link-dropdown {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .link {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .view-journal-entries .vector {
+    position: absolute;
+    width: 13px;
+    height: 7px;
+    top: 9px;
+    left: 6px;
+  }
+  
+  .view-journal-entries .frame-wrapper {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .button-wrapper {
+    justify-content: center;
+    gap: 16px;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -2.00px;
+    margin-bottom: -2.00px;
+    margin-left: -2.00px;
+    margin-right: -2.00px;
+    background-color: #031749;
+    border-radius: 500px;
+    border: 1px solid;
+  }
+  
+  .view-journal-entries .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-left: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .view-journal-entries .element-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    top: 22px;
+    left: 696px;
+  }
+  
+  .view-journal-entries .element {
+    position: relative;
+    width: 49px;
+    height: 49.5px;
+    object-fit: cover;
+  }
+  
+  .view-journal-entries .mega-menu {
+    display: flex;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 32px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: #f1f5ff;
+    border-radius: 16px;
+  }
+  
+  .view-journal-entries .blog-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .blog-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .view-journal-entries .content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .view-journal-entries .content-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #031749;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .view-journal-entries .body-text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  
+  .view-journal-entries .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Medium", Helvetica;
+    font-weight: 500;
+    color: #031749;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .view-journal-entries .two-word-query-for {
+    position: relative;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+  }
+  
+  .view-journal-entries .header-breakpoint {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 112px 64px;
+    position: absolute;
+    top: 320px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .view-journal-entries .container {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .tagline {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #031749;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .view-journal-entries .content-4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .short-heading-here {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #031749;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+  }
+  
+  .view-journal-entries .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .view-journal-entries .actions {
+    display: flex;
+    flex-direction: column;
+    width: 513px;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .form {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .text-input {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -1.00px;
+    margin-bottom: -1.00px;
+    margin-left: -1.00px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #031749;
+  }
+  
+  .view-journal-entries .placeholder {
+    position: relative;
+    width: 352px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #505050;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .view-journal-entries .div-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -2.00px;
+    margin-bottom: -2.00px;
+    margin-right: -2.00px;
+    background-color: #031749;
+    border-radius: 500px;
+    border: 1px solid;
+  }
+  
+  .view-journal-entries .text-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  
+  .view-journal-entries .gallery {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 112px 64px;
+    position: absolute;
+    top: 851px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .view-journal-entries .section-title-2 {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .view-journal-entries .image {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #031749;
+    font-size: 48px;
+    letter-spacing: 0;
+    line-height: 57.6px;
+  }

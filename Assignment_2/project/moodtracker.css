@@ -1,0 +1,351 @@
+.mood-tracker-screen {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mood-tracker-screen .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 1469px;
+    position: relative;
+  }
+  
+  .mood-tracker-screen .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 72px;
+    top: 0;
+    left: 0;
+  }
+  
+  .mood-tracker-screen .navbar-breakpoint {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 72px;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: 0px none;
+  }
+  
+  .mood-tracker-screen .container {
+    display: flex;
+    width: 1312px;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .mood-tracker-screen .content {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .mood-tracker-screen .logo {
+    position: relative;
+    width: 63px;
+    height: 27px;
+  }
+  
+  .mood-tracker-screen .actions {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+    overflow: hidden;
+  }
+  
+  .mood-tracker-screen .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px 26px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -2.00px;
+    background-color: #031749;
+    border-radius: 500px;
+    border: 1px solid;
+  }
+  
+  .mood-tracker-screen .text-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    margin-left: -1.00px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .mood-tracker-screen .icon {
+    display: inline-flex;
+    align-items: flex-start;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .mood-tracker-screen .icon-menu {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .mood-tracker-screen .img {
+    position: absolute;
+    width: 16px;
+    height: 12px;
+    top: 6px;
+    left: 4px;
+  }
+  
+  .mood-tracker-screen .element {
+    position: absolute;
+    width: 67px;
+    height: 72px;
+    top: 0;
+    left: 30px;
+    object-fit: cover;
+  }
+  
+  .mood-tracker-screen .header-breakpoint {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 112px 64px;
+    position: absolute;
+    top: 72px;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .mood-tracker-screen .container-2 {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .mood-tracker-screen .section-title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .mood-tracker-screen .tagline {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #031749;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .mood-tracker-screen .content-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .mood-tracker-screen .short-heading-here {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #031749;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+  }
+  
+  .mood-tracker-screen .text {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .mood-tracker-screen .actions-2 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 16px 0px 0px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .mood-tracker-screen .button-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -2.00px;
+    margin-bottom: -2.00px;
+    margin-left: -2.00px;
+    background-color: #031749;
+    border-radius: 500px;
+    border: 1px solid;
+  }
+  
+  .mood-tracker-screen .div-wrapper {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -1.00px;
+    margin-bottom: -1.00px;
+    margin-right: -1.00px;
+    border-radius: 500px;
+    border: 1px solid;
+    border-color: #031749;
+  }
+  
+  .mood-tracker-screen .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #031749;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .mood-tracker-screen .column-wrapper {
+    display: flex;
+    width: 1440px;
+    height: 900px;
+    align-items: center;
+    padding: 0px 64px;
+    position: absolute;
+    top: 569px;
+    left: 0;
+    background-color: #03174980;
+  }
+  
+  .mood-tracker-screen .column {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .mood-tracker-screen .medium-length-hero {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 56px;
+    letter-spacing: 0;
+    line-height: 67.2px;
+  }
+  
+  .mood-tracker-screen .p {
+    position: relative;
+    align-self: stretch;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 27px;
+  }
+  
+  .mood-tracker-screen .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 32px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-top: -1.00px;
+    margin-bottom: -1.00px;
+    margin-right: -1.00px;
+    border-radius: 500px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .mood-tracker-screen .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
